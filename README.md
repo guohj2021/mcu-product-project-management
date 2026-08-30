@@ -56,6 +56,11 @@ EOL
 - `review/02-data-model-review.md`：数据模型评审记录
 - `review/03-display-review.md`：展示方案评审记录
 - `examples/mcu-product-example.md`：示例产品数据与展示场景
+- `examples/data-prototype.xls`：Excel 兼容的数据原型，包含核心实体、字段、类型、是否必填、说明及示例
+
+## 数据原型
+
+当前 Excel 原型采用“业务实体 + 字段字典 + 示例值”的形式，重点用于评审数据模型，而不是作为最终数据库结构。后续确认模型后，再进一步确定具体平台的数据表/多维表结构。
 
 ## 设计原则
 
